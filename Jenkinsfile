@@ -9,8 +9,9 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'ls'
+                sh 'curl -k -X https://localhost:8443/benchmark/'
                 sh './runBenchmark.sh'
+                sh 'curl -k -X https://localhost:8443/benchmark/'
             }
         }
     }
