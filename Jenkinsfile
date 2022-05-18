@@ -9,7 +9,8 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'runBenchmark.sh'
+                sh 'ls'
+                sh 'BenchmarkJava/runBenchmark.sh'
             }
         }
     }
