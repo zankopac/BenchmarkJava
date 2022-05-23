@@ -10,7 +10,6 @@ pipeline {
         stage('deploy') {
             steps {
                 sh './runBenchmark.sh'
-                sh 'curl https://localhost:8443/benchmark/ -k'
             }
         }
     }
