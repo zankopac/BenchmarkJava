@@ -118,7 +118,7 @@
 
                             <!-- Container configuration -->
                             <container>
-                                <timeout>300000</timeout>
+                                <timeout>1000</timeout>
                                 <containerId>tomcat${tomcat.major.version}x</containerId>
                                 <zipUrlInstaller>
                                     <url>${tomcat.url}</url>
@@ -224,7 +224,7 @@
 
                             <!-- Container configuration -->
                             <container>
-                                <timeout>300000</timeout>
+                                <timeout>1000</timeout>
                                 <containerId>tomcat${tomcat.major.version}x</containerId>
                                 <zipUrlInstaller>
                                     <url>${tomcat.url}</url>
@@ -337,7 +337,7 @@
 
                             <!-- Container configuration -->
                             <container>
-                                <timeout>300000</timeout>
+                                <timeout>1000</timeout>
                                 <containerId>tomcat${tomcat.major.version}x</containerId>
                                 <zipUrlInstaller>
                                     <url>${tomcat.url}</url>
@@ -443,7 +443,7 @@
 
                             <!-- Container configuration -->
                             <container>
-                                <timeout>300000</timeout>
+                                <timeout>1000</timeout>
                                 <containerId>tomcat${tomcat.major.version}x</containerId>
                                 <zipUrlInstaller>
                                     <url>${tomcat.url}</url>
